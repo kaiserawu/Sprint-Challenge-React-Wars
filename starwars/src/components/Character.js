@@ -4,7 +4,12 @@ import './StarWars.css';
 const Character = props => {
   return (
     <div>
-      Placeholder.
+      <h2>{props.charInfo.name}</h2>
+      <ul>
+        <li>Birth Year: {props.charInfo.birth_year}</li>
+        <li>Gender: {props.charInfo.gender}</li>
+        <li>Hair Color: {props.charInfo.hair_color}</li>
+      </ul>
     </div>
   )
 }

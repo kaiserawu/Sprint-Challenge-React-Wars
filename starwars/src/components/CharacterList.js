@@ -6,7 +6,7 @@ import Character from './Character';
 const CharacterList = props => {
   return (
     <div>
-      {props.chars.map(char => <Character charInfo={char} />)}
+      {props.chars.map(char => <Character charInfo={char} key={char.name} />)}
     </div>
   )
 }
