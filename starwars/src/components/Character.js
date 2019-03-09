@@ -3,7 +3,7 @@ import './StarWars.css';
 
 const Character = props => {
   return (
-    <div>
+    <div className='character'>
       <h2>{props.charInfo.name}</h2>
       <ul>
         <li>Birth Year: {props.charInfo.birth_year}</li>
